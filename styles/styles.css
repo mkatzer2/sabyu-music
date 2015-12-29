@@ -8,7 +8,6 @@ body a {
 .logo { 
   width: 100%;
   min-width: 50px;
-  max-width: 75px;
 }
 
 .nav-bar {
@@ -47,6 +46,9 @@ body a {
 }
 .contact-aside li {
   list-style: none;
+  font-size: 2rem;
+}
+.email p {
   font-size: 2rem;
 }
 .recent-projects  h4{
