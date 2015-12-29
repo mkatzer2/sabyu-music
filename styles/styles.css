@@ -2,6 +2,9 @@ body {
   background-color: black;
   color: white;
 }
+body a {
+  color: white;
+}
 .logo { 
   width: 90%;
   min-width: 50px;
@@ -17,11 +20,38 @@ body {
   border-top: 2px solid white;
   border-bottom: 1px solid white;
 }
+
 .nav-bar a {
   color: white;
 }
 
 .ep-art { 
-  width: 50%;
+  width: 90%;
+}
+
+.ep-advertisement { 
+  padding-left: 0%;
+}
+.contact-aside ul {
+  padding-left: 15%;
+}
+.contact-aside h2 { 
+  font-size: 2.5rem;
+}
+.contact-aside li {
+  list-style: none;
+}
+.recent-projects  h4{
+ font-size: 1.3rem;
+}
+.recent-projects li {
+  list-style: none;
+  float: left;
+  width: 33%;
+}
+
+.simple-foot {
+  border-top: 1px solid white;
+  font-size: 1rem;
 }
 
