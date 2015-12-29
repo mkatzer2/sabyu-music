@@ -35,6 +35,10 @@ body a {
 .ep-advertisement h2 {
   font-size: 5rem;
 }
+.ep-advertisement a:hover {
+  text-decoration: none;
+  color: white;
+}
 .ep-advertisement a {
   font-size: 2.3rem;
 }
