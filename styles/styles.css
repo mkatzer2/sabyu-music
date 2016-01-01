@@ -10,10 +10,15 @@ body a {
   min-width: 50px;
 }
 
-.nav-bar {
-  display: flex;
+.nav-bar li{
+  width: 25%;
+  text-align: center;
+  float: left;
   list-style: none;
-  justify-content: space-around;
+}
+
+.nav-bar {
+  height: 5rem;
   margin-top: 5%;
   padding-left: 0%;
   border-top: 2px solid white;
@@ -72,3 +77,29 @@ body a {
   font-size: 1.8rem;
 }
 
+/*Dropdown Menu when hovering*/
+
+.nav-bar li ul {
+  position: absolute;
+  display: none;
+  width: inherit;
+  font-size: 2rem;
+}
+
+.nav-bar li:hover ul {
+  display: block;
+  z-index: 1;
+  background-color: black;
+}
+
+.nav-bar li ul li {
+  clear: both;
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+.nav-bar li ul li:first-child {
+  border-top: 1px solid white;
+}
+.nav-bar li:hover {
+  background-color: #0A4A7A;
+}
