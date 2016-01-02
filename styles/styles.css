@@ -34,11 +34,10 @@ body a {
   width: 70%;
 }
 
-.ep-advertisement { 
-  padding-left: 0%;
-}
+/* EP advertisement on homepage*/
 .ep-advertisement h2 {
   font-size: 5rem;
+  text-align: center;
 }
 .ep-advertisement a:hover {
   text-decoration: none;
@@ -47,11 +46,16 @@ body a {
 .ep-advertisement a {
   font-size: 2.3rem;
 }
+
+.center-img {
+  display: block;
+  margin: auto;
+}
 .contact-aside ul {
   padding-left: 15%;
 }
 .contact-aside h2 { 
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .contact-aside li {
   list-style: none;
@@ -102,4 +106,57 @@ body a {
 }
 .nav-bar li:hover {
   background-color: #0A4A7A;
+}
+
+/* Music Pages */
+
+.music-nav li {
+  float: left;
+  font-size: 2.5rem;
+  padding: 1% 1%;
+  width: auto;
+}
+
+.music-nav {
+  height: 5rem;
+  margin-bottom: 5%;
+}
+
+.clear-fix {
+  clear: both;
+}
+.current-page {
+  border: 2px solid white;
+  border-bottom: none;
+}
+
+.current-page a:hover {
+ color: white;
+  text-decoration: none;
+}
+
+.music-img {
+  width: 35%;
+  float: left;
+  margin-right: 3%;
+}
+
+.music-description {
+  font-size: 1.8rem;
+}
+.album-title {
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 3%
+}
+.emphasis {
+  font-size: 2.1rem;
+}
+
+footer {
+  margin-top: 5%;
+}
+
+.sc-player {
+  margin-top: 3%;
 }
