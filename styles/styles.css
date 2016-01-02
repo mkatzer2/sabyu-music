@@ -233,3 +233,20 @@ footer {
   background-image: url("../images/sand-back.jpg");
   background-size: cover;
 }
+
+/*Collaborations*/
+
+.artist {
+  border: 4px double white;
+  padding-bottom: 15%;
+}
+
+.free-float {
+  background-image: url(../images/free-floatin.jpg);
+  background-size: cover;
+}
+
+.fiesta {
+  background-image: url(../images/fiesta.jpg);
+  background-size: cover;
+}
