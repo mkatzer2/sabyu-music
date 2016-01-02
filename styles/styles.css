@@ -160,3 +160,54 @@ footer {
 .sc-player {
   margin-top: 3%;
 }
+
+/*Medley Page*/
+.medley-nav li, .medley-nav p {
+  float: left;
+  padding: 3%;
+  font-size: 3rem;
+}
+.medley-nav {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  height: 8rem;
+}
+.spring {
+  background-image: url("../images/blossom-back.jpg");
+  background-size: cover;
+}
+.medley-title {
+  font-size: 4rem;
+}
+.medley-songs {
+  font-size: 3rem;
+  padding: 4%;
+}
+
+.season .sc-player {
+  margin-bottom:3%;
+  padding: 0 5%;
+}
+
+.season {
+  padding: 8% 3% 10% 3%;
+  text-shadow: 3px 3px 0px #000;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
+  margin: 10% 0;
+}
+
+.summer {
+  background-image: url("../images/seaside-back.png");
+  background-size: cover;
+}
+
+.fall {
+  background-image: url(../images/maple-back.jpg);
+  background-size: cover;
+}
+
+.winter {
+  text-align: center;
+  background-image: url(../images/winter-back.JPG);
+  background-size: cover;
+}
