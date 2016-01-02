@@ -211,3 +211,25 @@ footer {
   background-image: url(../images/winter-back.JPG);
   background-size: cover;
 }
+
+/*Whirled Beets*/
+
+.center-text {
+  padding: 2%;
+  text-align: center;
+}
+
+.mekong  {
+  background-image: url("../images/mekong-back.jpg");
+  background-size: cover;
+}
+
+.fine-china {
+  background-image: url("../images/fine-china-back.jpg");
+  background-size: cover;
+}
+
+.sand {
+  background-image: url("../images/sand-back.jpg");
+  background-size: cover;
+}
